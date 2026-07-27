@@ -21,7 +21,8 @@ This dashboard lets users filter and compare CO2 emissions across 15 countries a
 
 ## Screenshots
 
-*Add a screenshot or GIF of the dashboard here once deployed, e.g.:*
+<img width="918" height="476" alt="image" src="https://github.com/user-attachments/assets/76d5e06c-e6d4-4c97-b1aa-82dd1dfb491d" />
+
 
 ```
 ![Dashboard preview](docs/screenshot.png)
