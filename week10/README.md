@@ -62,8 +62,8 @@ Source: [Our World in Data — CO2 Emissions](https://ourworldindata.org/co2-emi
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>/week10
+git clone (https://github.com/VallalaPurnachandar/dataviz-exercises-Purnachandar-Vallala.git)
+cd dataviz-exercises-Purnachandar-Vallala.git/week10
 pip install -r requirements.txt
 ```
 
