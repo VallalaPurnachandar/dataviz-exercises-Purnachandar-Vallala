@@ -1,4 +1,0 @@
-The final examination includes developing a small full stack web site on Amazon AWS.
-You will be given the code for the application, but need to set up your team's project, accounts, web services (EC2 or serverless), database (EC2 or serverless), and networking.
-
-The final exam will include a presentation and a demonstration of your working system.
