@@ -1,536 +1,379 @@
-\# ⚡ Global EV Intelligence Dashboard
+# ⚡ Global EV Intelligence Dashboard
 
+> **Interactive Business Intelligence Analysis of the Global Electric Vehicle Market (2010–2035)**
 
+![Dashboard Banner](images/cover_banner.png)
 
-> \*\*Interactive Business Intelligence Platform for Global Electric Vehicle Market Analysis (2010–2035)\*\*
+---
 
+## 🌐 Live Demo
 
+🚀 **Interactive Dashboard**
 
-An end-to-end Business Intelligence project that explores the global Electric Vehicle (EV) market using the International Energy Agency (IEA) Global EV Outlook dataset. The project combines data preprocessing, exploratory data analysis, forecasting, and an interactive Streamlit dashboard to deliver actionable insights for policymakers, manufacturers, investors, and researchers.
+**Live Application**
 
+(https://dataviz-exercises-purnachandar-vallala-jut4nz84v9nxe8hn5xr7ht.streamlit.app/)
 
+Experience the complete interactive dashboard online without installing any software.
 
-\---
+---
 
+## 💻 GitHub Repository
 
+Repository Link
 
-\## 📖 Project Overview
+(https://github.com/VallalaPurnachandar/dataviz-exercises-Purnachandar-Vallala/tree/main/EV_Global_Intelligence_Final_project)
 
+Clone the repository
 
-
-The rapid growth of electric vehicles is transforming the global transportation sector. This project analyzes historical EV market trends and future projections using the \*\*International Energy Agency (IEA) Global EV Outlook\*\* dataset.
-
-
-
-The project follows a complete Business Intelligence workflow:
-
-
-
-\- Data Collection \& Preparation
-
-\- Data Cleaning \& Feature Engineering
-
-\- Exploratory Data Analysis
-
-\- Forecast Analysis
-
-\- Interactive Dashboard Development
-
-\- Executive Business Insights
-
-
-
-\---
-
-
-
-\## 🎯 Project Objectives
-
-
-
-\- Analyze the global EV market from \*\*2010–2035\*\*
-
-\- Identify trends in EV sales and stock
-
-\- Compare EV adoption across countries
-
-\- Analyze charging infrastructure and energy demand
-
-\- Investigate EV pricing patterns
-
-\- Compare future policy scenarios (CPS \& STEPS)
-
-\- Develop an interactive Business Intelligence dashboard
-
-
-
-\---
-
-
-
-\# 📂 Project Structure
-
-
-
-```text
-
-Global\_EV\_Intelligence/
-
-│
-
-├── dashboard/
-
-│   ├── app.py
-
-│   ├── pages/
-
-│   │   ├── 1\_📊\_Market\_Overview.py
-
-│   │   ├── 2\_🌍\_Country\_Explorer.py
-
-│   │   ├── 3\_🚗\_Vehicle\_Technology\_Analysis.py
-
-│   │   ├── 4\_⚡\_Infrastructure\_Energy.py
-
-│   │   ├── 5\_💰\_Price\_Intelligence.py
-
-│   │   ├── 6\_📈\_Future\_Outlook.py
-
-│   │   └── 7\_💼\_Executive\_Insights.py
-
-│   │
-
-│   └── utils/
-
-│       ├── loader.py
-
-│       ├── filters.py
-
-│       ├── charts.py
-
-│       └── styles.py
-
-│
-
-├── notebooks/
-
-│   ├── Notebook\_1\_Data\_Preparation.ipynb
-
-│   ├── Notebook\_2\_Business\_Analysis.ipynb
-
-│   └── Notebook\_3\_Forecasting.ipynb
-
-│
-
-├── data/
-
-│   ├── raw/
-
-│   └── processed/
-
-│       └── ev\_analysis\_ready.csv
-
-│
-
-├── images/
-
-│   ├── logo.png
-
-│   └── cover\_banner.png
-
-│
-
-├── README.md
-
-├── requirements.txt
-
-└── .gitignore
-
+```bash
+git clone (https://github.com/VallalaPurnachandar/dataviz-exercises-Purnachandar-Vallala/tree/main/EV_Global_Intelligence_Final_project)
 ```
 
+---
 
+# 📖 Project Overview
 
-\---
+The **Global EV Intelligence Dashboard** is an end-to-end Business Intelligence project developed to analyze the global Electric Vehicle (EV) market using the **International Energy Agency (IEA) Global EV Outlook Dataset**.
 
+The project combines **data engineering, exploratory data analysis, forecasting, and interactive dashboard development** to provide valuable insights into the growth of electric vehicles worldwide.
 
+The dashboard enables policymakers, researchers, businesses, and investors to explore historical trends, compare countries, analyze vehicle technologies, investigate charging infrastructure, evaluate EV pricing, and understand future market projections through an interactive web application.
 
-\# 📊 Dataset
+---
 
+# 🎯 Project Objectives
 
+The primary objectives of this project are:
 
-\*\*Source\*\*
+- Analyze the global EV market between **2010 and 2035**
+- Compare EV adoption across 72 countries
+- Study historical and forecast market trends
+- Analyze EV sales and EV stock
+- Explore charging infrastructure growth
+- Understand electricity demand from EVs
+- Analyze vehicle technologies
+- Compare EV pricing across countries
+- Build an interactive Business Intelligence dashboard
+- Generate executive insights for decision makers
 
+---
 
+# 📂 Project Structure
+
+```text
+Global_EV_Intelligence/
+│
+├── dashboard/
+│   ├── app.py
+│   │
+│   ├── pages/
+│   │   ├── 1_📊_Market_Overview.py
+│   │   ├── 2_🌍_Country_Explorer.py
+│   │   ├── 3_🚗_Vehicle_Technology_Analysis.py
+│   │   ├── 4_⚡_Infrastructure_Energy.py
+│   │   ├── 5_💰_Price_Intelligence.py
+│   │   ├── 6_📈_Future_Outlook.py
+│   │   └── 7_💼_Executive_Insights.py
+│   │
+│   └── utils/
+│       ├── loader.py
+│       ├── charts.py
+│       ├── filters.py
+│       └── styles.py
+│
+├── notebooks/
+│   ├── Notebook_1_Data_Preparation.ipynb
+│   ├── Notebook_2_Business_Analysis.ipynb
+│   └── Notebook_3_Forecast_Analysis.ipynb
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│       └── ev_analysis_ready.csv
+│
+├── images/
+│   ├── logo.png
+│   ├── cover_banner.png
+│   ├── dashboard_home.png
+│   ├── dashboard_market.png
+│   ├── dashboard_country.png
+│   └── dashboard_executive.png
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
+# 📊 Dataset
+
+**Source**
 
 International Energy Agency (IEA)
 
-
-
 Global EV Outlook Dataset
 
+---
 
-
-\### Dataset Summary
-
-
+### Dataset Summary
 
 | Feature | Value |
-
-|----------|------:|
-
+|----------|-------|
 | Countries | 72 |
-
 | Years | 2010–2035 |
-
 | Records | 49,360 |
-
 | Parameters | 19 |
-
 | Historical Data | Yes |
-
 | Forecast Data | Yes |
 
+---
 
+# 🛠 Technologies Used
 
-\---
+### Programming
 
+- Python
 
+### Data Analysis
 
-\# 🛠 Technologies Used
+- Pandas
+- NumPy
 
+### Visualization
 
+- Plotly
+- Streamlit
 
-\### Programming
+### Development Tools
 
+- Jupyter Notebook
+- VS Code
+- Git
+- GitHub
 
+---
 
-\- Python
+# 🚀 Dashboard Features
 
+## 🏠 Home
 
+- Executive KPI Dashboard
+- Global EV Sales Overview
+- Interactive Dataset Explorer
+- Business Insights
 
-\### Data Analysis
+---
 
+## 📊 Market Overview
 
+- EV Sales Trend
+- EV Stock Trend
+- Market Growth Analysis
+- Global Market Comparison
 
-\- Pandas
+---
 
-\- NumPy
+## 🌍 Country Explorer
 
+- Country Comparison
+- Historical EV Trends
+- Country Rankings
+- Interactive Filtering
 
+---
 
-\### Visualization
+## 🚗 Vehicle Technology Analysis
 
+- Vehicle Type Analysis
+- Powertrain Comparison
+- Technology Distribution
+- Vehicle Segment Insights
 
+---
 
-\- Plotly
+## ⚡ Infrastructure & Energy
 
-\- Streamlit
+- Charging Infrastructure
+- Electricity Demand
+- Battery Deployment
+- Energy Transition Analysis
 
+---
 
+## 💰 Price Intelligence
 
-\### Development
+- EV Price Distribution
+- Country Price Comparison
+- Market Affordability
+- Pricing Trends
 
+---
 
+## 📈 Future Outlook
 
-\- Jupyter Notebook
+- Historical vs Forecast
+- CPS Scenario
+- STEPS Scenario
+- Growth Projection
 
-\- VS Code
+---
 
-\- Git
+## 💼 Executive Insights
 
-\- GitHub
+- Strategic Recommendations
+- Business Conclusions
+- Market Opportunities
+- Executive Dashboard
 
+---
 
+# 📈 Key Business Insights
 
-\---
+- Global EV adoption has increased significantly since 2015.
+- China continues to dominate the global EV market.
+- Passenger cars remain the largest EV segment.
+- Public charging infrastructure has expanded rapidly worldwide.
+- Battery deployment continues to increase with EV demand.
+- Electricity demand from EVs is expected to grow steadily.
+- Forecast scenarios indicate strong market expansion through 2035.
+- Government policies continue to accelerate EV adoption globally.
 
+---
 
+# 📸 Dashboard Preview
 
-\# 📈 Business Analysis
+## 🏠 Home Dashboard
 
+![Home Dashboard](images/dashboard_home.png)
 
+---
 
-The project investigates:
+## 📊 Market Overview
 
+![Market Overview](images/dashboard_market.png)
 
+---
 
-\- Global EV Sales
+## 🌍 Country Explorer
 
-\- EV Stock
+![Country Explorer](images/dashboard_country.png)
 
-\- Country-wise Market Analysis
+---
 
-\- Vehicle Technology
+## 💼 Executive Insights
 
-\- Charging Infrastructure
+![Executive Insights](images/dashboard_executive.png)
 
-\- Electricity Demand
+---
 
-\- Battery Deployment
+# ⚙ Installation
 
-\- EV Price Intelligence
-
-\- Future Market Forecasts
-
-\- Executive KPI Dashboard
-
-
-
-\---
-
-
-
-\# 📊 Interactive Dashboard
-
-
-
-The Streamlit dashboard contains:
-
-
-
-\### 🏠 Home
-
-
-
-Executive KPI dashboard with global overview.
-
-
-
-\### 📊 Market Overview
-
-
-
-Historical market trends and growth.
-
-
-
-\### 🌍 Country Explorer
-
-
-
-Country-level EV analysis.
-
-
-
-\### 🚗 Vehicle Technology Analysis
-
-
-
-Vehicle segment and powertrain comparison.
-
-
-
-\### ⚡ Infrastructure \& Energy
-
-
-
-Charging infrastructure and energy demand.
-
-
-
-\### 💰 Price Intelligence
-
-
-
-EV price analysis across countries.
-
-
-
-\### 📈 Future Outlook
-
-
-
-Forecast comparison under different policy scenarios.
-
-
-
-\### 💼 Executive Insights
-
-
-
-Business recommendations and strategic conclusions.
-
-
-
-\---
-
-
-
-\# 📌 Key Insights
-
-
-
-\- Global EV sales have increased significantly since 2015.
-
-\- Passenger cars dominate worldwide EV adoption.
-
-\- China remains the largest EV market.
-
-\- Charging infrastructure continues to expand globally.
-
-\- Future scenarios project sustained EV market growth through 2035.
-
-\- Government policies play a critical role in accelerating EV adoption.
-
-
-
-\---
-
-
-
-\# 🚀 How to Run
-
-
-
-\## Clone Repository
-
-
+Clone the repository
 
 ```bash
-
-git clone https://github.com/YOUR\_USERNAME/Global\_EV\_Intelligence.git
-
+git clone (https://github.com/VallalaPurnachandar/dataviz-exercises-Purnachandar-Vallala/tree/main/EV_Global_Intelligence_Final_project)
 ```
 
-
-
-\---
-
-
-
-\## Install Dependencies
-
-
+Move into the project directory
 
 ```bash
+cd Global_EV_Intelligence
+```
 
+Install dependencies
+
+```bash
 pip install -r requirements.txt
-
 ```
 
-
-
-\---
-
-
-
-\## Run Dashboard
-
-
+Run the Streamlit dashboard
 
 ```bash
-
 cd dashboard
 
-
-
 streamlit run app.py
-
 ```
 
+---
 
+# ☁ Deployment
 
-\---
+The dashboard is deployed using **Streamlit Community Cloud**.
 
+Live Dashboard
 
+(https://dataviz-exercises-purnachandar-vallala-jut4nz84v9nxe8hn5xr7ht.streamlit.app/)
 
-\# 📸 Dashboard Preview
+---
 
+# 📈 Future Enhancements
 
+Future improvements may include:
 
-Replace these placeholders with screenshots after deployment.
+- Real-time EV market data integration
+- Machine Learning forecasting models
+- Interactive world maps
+- Carbon emission estimation
+- Battery lifecycle analysis
+- Charging station optimization
+- Advanced predictive analytics
+- User authentication
+- Database integration
+- API connectivity
 
+---
 
+# 📋 Project Highlights
 
-\- Home Dashboard
+✅ Interactive Business Intelligence Dashboard
 
-\- Market Overview
+✅ Analysis of 72 Countries
 
-\- Country Explorer
+✅ Historical & Forecast Data (2010–2035)
 
-\- Infrastructure \& Energy
+✅ Executive KPI Dashboard
 
-\- Price Intelligence
+✅ Forecast Analysis
 
-\- Future Outlook
+✅ Country-Level Analysis
 
-\- Executive Insights
+✅ Vehicle Technology Insights
 
+✅ Charging Infrastructure Analysis
 
+✅ Price Intelligence
 
-\---
+✅ Executive Business Recommendations
 
+---
 
+# 👨‍💻 Author
 
-\# 📈 Future Enhancements
-
-
-
-\- Real-time EV market data integration
-
-\- Machine Learning forecasting
-
-\- Carbon emission analysis
-
-\- Battery lifecycle analysis
-
-\- Interactive geographic maps
-
-\- Advanced business forecasting
-
-
-
-\---
-
-
-
-\# 👨‍💻 Author
-
-
-
-\*\*Purnachandar Vallala\*\*
-
-
+**Purnachandar Vallala**
 
 Master's in Data Science
 
+---
 
+# 🙏 Acknowledgements
 
-\---
+Special thanks to:
 
+- International Energy Agency (IEA)
+- Streamlit
+- Plotly
+- Pandas
+- NumPy
+- Python Community
 
+---
 
-\# 📜 License
+# 📜 License
 
+This project has been developed for academic purposes as part of a Master's in Data Science coursework.
 
+---
 
-This project is developed for academic purposes as part of a Master's in Data Science coursework.
-
-
-
-\---
-
-
-
-\# 🙏 Acknowledgements
-
-
-
-\- International Energy Agency (IEA)
-
-\- Streamlit
-
-\- Plotly
-
-\- Pandas
-
-\- Python Community
-
-
-
-\---
-
-
-
-⭐ If you found this project useful, consider giving it a star.
-
+⭐ **If you found this project useful, please consider giving it a Star on GitHub!**

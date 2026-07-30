@@ -120,3 +120,4 @@ plotly>=5.20.0
 
 `streamlit>=1.36.0` is required for `st.navigation` / `st.Page`, which power
 the multi-page structure in `app.py`.
+Deployed Streamlit app:https://dataviz-exercises-purnachandar-vallala-ibzizrwfxncpkjny6t9a5b.streamlit.app/
