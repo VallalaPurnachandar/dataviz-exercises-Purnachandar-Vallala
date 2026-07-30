@@ -106,5 +106,5 @@ This project is available under the MIT License. Feel free to adapt it for your 
 - Dataset courtesy of [Our World in Data](https://ourworldindata.org/co2-emissions)
 - Built as part of a data visualization course exercise (Lecture 10)
 
-- 
+  
 App Deployment URL:https://dataviz-exercises-purnachandar-vallala-dd5w88tltwfyz4mxsdqbql.streamlit.app/
