@@ -65,3 +65,5 @@ streamlit
 pandas
 plotly
 ```
+Deployed Streamlit app:
+https://dataviz-exercises-purnachandar-vallala-bjmoy4klmnecchzh8cabxh.streamlit.app/
